@@ -34,3 +34,11 @@ for epoch in range(epochs):
     dZ1 = dA1 * sigmoid_derivative(Z1)
     dW1 = np.dot(X.T, dZ1)
     db1 = np.sum(dZ1, axis=0, keepdims=True)
+
+    W2 -= learning_rate * dW2
+    b2 -= learning_rate * db2
+    W1 -= learning_rate * dW1
+    b1 -= learning_rate * db1
+
+    if epoch % 1000 == 0:
+        print(f"Epoch {epoch} — Loss: {loss:.4f}")
