@@ -25,4 +25,9 @@ for epoch in range(epochs):
 
     loss = mean_squared_error(y, A2)
 
+    dA2 = mse_derivative(y, A2)
+    dZ2 = dA2 * sigmoid_derivative(Z2)
+    dW2 = np.dot(A1.T, dZ2)
+    db2 = np.sum(dZ2, axis=0, keepdims=True)
+
     
