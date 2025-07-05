@@ -30,4 +30,7 @@ for epoch in range(epochs):
     dW2 = np.dot(A1.T, dZ2)
     db2 = np.sum(dZ2, axis=0, keepdims=True)
 
-    
+    dA1 = np.dot(dZ2, W2.T)
+    dZ1 = dA1 * sigmoid_derivative(Z1)
+    dW1 = np.dot(X.T, dZ1)
+    db1 = np.sum(dZ1, axis=0, keepdims=True)
