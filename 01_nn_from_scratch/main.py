@@ -15,3 +15,10 @@ W1 = np.random.randn(input_size, hidden_size)
 b1 = np.zeros((1, hidden_size))
 W2 = np.random.randn(hidden_size, output_size)
 b2 = np.zeros((1, output_size))
+
+for epoch in range(epochs):
+    # Forward pass
+    Z1 = np.dot(X, W1) + b1
+    A1 = sigmoid(Z1)
+    Z2 = np.dot(A1, W2) + b2
+    A2 = sigmoid(Z2)
