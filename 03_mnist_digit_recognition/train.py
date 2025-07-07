@@ -11,3 +11,4 @@ import matplotlib.pyplot as plt
 
 # Normalize and preprocess
 x_train = x_train / 255.0
+x_test = x_test / 255.0
