@@ -6,3 +6,5 @@ from tensorflow.keras.layers import Dense, Flatten
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 
+# Load MNIST
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
