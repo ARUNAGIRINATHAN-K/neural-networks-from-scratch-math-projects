@@ -8,3 +8,6 @@ import matplotlib.pyplot as plt
 
 # Load MNIST
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# Normalize and preprocess
+x_train = x_train / 255.0
