@@ -23,3 +23,10 @@ model = Sequential([
     Dense(10, activation='softmax')  # output for 10 classes
 ])
 
+# Compile model
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train model
+history = model.fit(x_train, y_train_cat, epochs=10, batch_size=128, validation_split=0.1)
