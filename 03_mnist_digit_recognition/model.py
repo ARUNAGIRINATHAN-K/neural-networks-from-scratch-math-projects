@@ -27,3 +27,6 @@ plt.imshow(x_test[sample_idx], cmap='gray')
 plt.title("Actual Label: " + str(y_test[sample_idx]))
 plt.axis('off')
 plt.show()
+
+prediction = np.argmax(model.predict(x_test[sample_idx].reshape(1, 28, 28)), axis=-1)
+print("Predicted Digit:", prediction[0])
