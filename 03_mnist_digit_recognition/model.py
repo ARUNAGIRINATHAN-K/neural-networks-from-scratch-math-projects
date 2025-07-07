@@ -8,3 +8,6 @@ from tensorflow.keras.datasets import mnist
 x_test = x_test / 255.0
 
 model = load_model('mlp_mnist.h5')
+
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Flatten
