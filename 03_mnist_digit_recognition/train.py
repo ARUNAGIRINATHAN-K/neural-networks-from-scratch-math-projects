@@ -30,3 +30,7 @@ model.compile(optimizer='adam',
 
 # Train model
 history = model.fit(x_train, y_train_cat, epochs=10, batch_size=128, validation_split=0.1)
+
+# Evaluate
+test_loss, test_acc = model.evaluate(x_test, y_test_cat)
+print(f"Test Accuracy: {test_acc:.4f}")
