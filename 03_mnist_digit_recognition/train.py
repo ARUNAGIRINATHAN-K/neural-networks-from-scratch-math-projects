@@ -13,3 +13,4 @@ import matplotlib.pyplot as plt
 x_train = x_train / 255.0
 x_test = x_test / 255.0
 y_train_cat = to_categorical(y_train, 10)
+y_test_cat = to_categorical(y_test, 10)
