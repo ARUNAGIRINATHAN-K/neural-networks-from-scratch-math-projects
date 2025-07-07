@@ -14,3 +14,12 @@ x_train = x_train / 255.0
 x_test = x_test / 255.0
 y_train_cat = to_categorical(y_train, 10)
 y_test_cat = to_categorical(y_test, 10)
+
+# Build MLP model
+model = Sequential([
+    Flatten(input_shape=(28, 28)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')  # output for 10 classes
+])
+
