@@ -34,3 +34,13 @@ history = model.fit(x_train, y_train_cat, epochs=10, batch_size=128, validation_
 # Evaluate
 test_loss, test_acc = model.evaluate(x_test, y_test_cat)
 print(f"Test Accuracy: {test_acc:.4f}")
+
+# Plot training history
+plt.plot(history.history['accuracy'], label='Train Acc')
+plt.plot(history.history['val_accuracy'], label='Val Acc')
+plt.xlabel("Epoch")
+plt.ylabel("Accuracy")
+plt.title("Training Accuracy")
+plt.legend()
+plt.grid(True)
+plt.show()
