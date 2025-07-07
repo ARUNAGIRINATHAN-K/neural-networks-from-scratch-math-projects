@@ -21,3 +21,9 @@ model = Sequential([
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 model.load_weights('mlp_weights.h5')
+
+sample_idx = 123
+plt.imshow(x_test[sample_idx], cmap='gray')
+plt.title("Actual Label: " + str(y_test[sample_idx]))
+plt.axis('off')
+plt.show()
