@@ -30,3 +30,9 @@ epochs = 10000
 lr = 0.1
 plot_interval = 1000
 
+# Plot setup
+fig, ax = plt.subplots()
+plt.ion()
+
+for epoch in range(epochs):
+   
