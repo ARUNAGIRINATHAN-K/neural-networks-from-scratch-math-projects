@@ -40,4 +40,6 @@ for epoch in range(epochs):
     A1 = sigmoid(Z1)
     Z2 = np.dot(A1, W2) + b2
     A2 = sigmoid(Z2)
+    loss = np.mean((y - A2) ** 2)
+
     
