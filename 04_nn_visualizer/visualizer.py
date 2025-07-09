@@ -58,4 +58,6 @@ for epoch in range(epochs):
     W2 -= lr * dW2
     b2 -= lr * db2
     W1 -= lr * dW1
+    b1 -= lr * db1
+
     
