@@ -28,3 +28,5 @@ b2 = np.zeros((1, output_dim))
 # Training parameters
 epochs = 10000
 lr = 0.1
+plot_interval = 1000
+
