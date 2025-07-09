@@ -46,4 +46,4 @@ for epoch in range(epochs):
     dA2 = 2 * (A2 - y)
     dZ2 = dA2 * sigmoid_derivative(Z2)
     dW2 = np.dot(A1.T, dZ2)
-    
+    db2 = np.sum(dZ2, axis=0, keepdims=True)
