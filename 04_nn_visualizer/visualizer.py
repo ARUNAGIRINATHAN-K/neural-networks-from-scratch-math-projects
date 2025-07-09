@@ -43,4 +43,5 @@ for epoch in range(epochs):
     loss = np.mean((y - A2) ** 2)
 
     # Backward
+    dA2 = 2 * (A2 - y)
     
