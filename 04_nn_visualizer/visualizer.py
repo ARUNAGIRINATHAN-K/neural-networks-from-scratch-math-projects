@@ -60,4 +60,11 @@ for epoch in range(epochs):
     W1 -= lr * dW1
     b1 -= lr * db1
 
-    
+    # Live update plot every 1000 epochs
+    if epoch % plot_interval == 0:
+        ax.clear()
+        ax.set_title(f"Epoch {epoch}\nLoss: {loss:.4f}")
+        ax.set_xlabel("Neuron")
+        ax.set_ylabel("Weight Value")
+
+        
