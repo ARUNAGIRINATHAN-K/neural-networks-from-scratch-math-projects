@@ -67,4 +67,12 @@ for epoch in range(epochs):
         ax.set_xlabel("Neuron")
         ax.set_ylabel("Weight Value")
 
-        
+        weights = np.concatenate([W1.flatten(), W2.flatten()])
+        ax.bar(range(len(weights)), weights)
+        plt.pause(0.01)
+
+# Final display
+plt.ioff()
+plt.show()
+print("Final predictions:")
+print(np.round(A2, 3))
