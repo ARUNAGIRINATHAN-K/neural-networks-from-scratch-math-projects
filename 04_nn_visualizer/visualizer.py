@@ -21,6 +21,3 @@ output_dim = 1
 # Weight init
 np.random.seed(0)
 W1 = np.random.randn(input_dim, hidden_dim)
-b1 = np.zeros((1, hidden_dim))
-W2 = np.random.randn(hidden_dim, output_dim)
-b2 = np.zeros((1, output_dim))
