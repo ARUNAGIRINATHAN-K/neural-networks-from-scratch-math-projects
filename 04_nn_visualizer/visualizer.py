@@ -42,4 +42,5 @@ for epoch in range(epochs):
     A2 = sigmoid(Z2)
     loss = np.mean((y - A2) ** 2)
 
+    # Backward
     
