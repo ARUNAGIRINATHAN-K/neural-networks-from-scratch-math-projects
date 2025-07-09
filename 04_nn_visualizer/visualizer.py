@@ -37,4 +37,5 @@ plt.ion()
 for epoch in range(epochs):
     # Forward
     Z1 = np.dot(X, W1) + b1
+    A1 = sigmoid(Z1)
     
