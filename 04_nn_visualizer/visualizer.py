@@ -44,4 +44,5 @@ for epoch in range(epochs):
 
     # Backward
     dA2 = 2 * (A2 - y)
+    dZ2 = dA2 * sigmoid_derivative(Z2)
     
