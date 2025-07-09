@@ -55,4 +55,5 @@ for epoch in range(epochs):
     db1 = np.sum(dZ1, axis=0, keepdims=True)
 
     # Update
+    W2 -= lr * dW2
     
