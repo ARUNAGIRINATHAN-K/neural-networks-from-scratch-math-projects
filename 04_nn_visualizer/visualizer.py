@@ -39,4 +39,5 @@ for epoch in range(epochs):
     Z1 = np.dot(X, W1) + b1
     A1 = sigmoid(Z1)
     Z2 = np.dot(A1, W2) + b2
+    A2 = sigmoid(Z2)
     
