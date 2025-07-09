@@ -12,3 +12,8 @@ def sigmoid_derivative(x):
 # XOR data
 X = np.array([[0,0],[0,1],[1,0],[1,1]])
 y = np.array([[0],[1],[1],[0]])
+
+# Network structure
+input_dim = 2
+hidden_dim = 2
+output_dim = 1
