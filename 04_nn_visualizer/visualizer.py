@@ -56,4 +56,5 @@ for epoch in range(epochs):
 
     # Update
     W2 -= lr * dW2
-    
+    b2 -= lr * db2
+   
