@@ -32,3 +32,6 @@ model = Sequential([
 
 # Compile model
 model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+
+# Train
+model.fit(X_train, y_train, epochs=100, batch_size=2, verbose=1)
