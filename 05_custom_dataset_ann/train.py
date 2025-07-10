@@ -42,3 +42,4 @@ print(f"\nTest Accuracy: {accuracy:.2f}")
 
 # Predict on test set
 preds = model.predict(X_test)
+pred_labels = np.argmax(preds, axis=1)
