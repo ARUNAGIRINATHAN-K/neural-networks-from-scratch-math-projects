@@ -30,3 +30,5 @@ model = Sequential([
     Dense(len(np.unique(y_encoded)), activation="softmax")
 ])
 
+# Compile model
+model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
