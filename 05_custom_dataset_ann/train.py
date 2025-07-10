@@ -14,3 +14,4 @@ y = data["label"].values
 
 # Encode class labels
 label_encoder = LabelEncoder()
+y_encoded = label_encoder.fit_transform(y)
