@@ -7,3 +7,9 @@ from tensorflow.keras.layers import Dense
 
 # Load dataset
 data = pd.read_csv("/workspaces/ANN-Mathematics-Projects/05_custom_dataset_ann/dataset.csv")
+
+# Separate features and labels
+X = data.drop("label", axis=1).values
+y = data["label"].values
+
+# Encode class labels
