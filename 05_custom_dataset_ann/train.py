@@ -43,3 +43,7 @@ print(f"\nTest Accuracy: {accuracy:.2f}")
 # Predict on test set
 preds = model.predict(X_test)
 pred_labels = np.argmax(preds, axis=1)
+
+# Show predictions
+for i in range(len(pred_labels)):
+    print(f"Actual: {label_encoder.inverse_transform([y_test[i]])[0]}, Predicted: {label_encoder.inverse_transform([pred_labels[i]])[0]}")
