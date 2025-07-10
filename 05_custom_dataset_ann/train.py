@@ -10,3 +10,4 @@ data = pd.read_csv("/workspaces/ANN-Mathematics-Projects/05_custom_dataset_ann/d
 
 # Separate features and labels
 X = data.drop("label", axis=1).values
+y = data["label"].values
