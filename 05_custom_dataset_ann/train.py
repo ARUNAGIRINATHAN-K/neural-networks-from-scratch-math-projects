@@ -35,3 +35,5 @@ model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=
 
 # Train
 model.fit(X_train, y_train, epochs=100, batch_size=2, verbose=1)
+
+# Evaluate
