@@ -13,3 +13,4 @@ X = data.drop("label", axis=1).values
 y = data["label"].values
 
 # Encode class labels
+label_encoder = LabelEncoder()
