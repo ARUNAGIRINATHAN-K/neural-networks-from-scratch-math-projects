@@ -38,3 +38,6 @@ model.fit(X_train, y_train, epochs=100, batch_size=2, verbose=1)
 
 # Evaluate
 loss, accuracy = model.evaluate(X_test, y_test)
+print(f"\nTest Accuracy: {accuracy:.2f}")
+
+# Predict on test set
