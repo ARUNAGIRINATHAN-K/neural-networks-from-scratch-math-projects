@@ -41,3 +41,4 @@ loss, accuracy = model.evaluate(X_test, y_test)
 print(f"\nTest Accuracy: {accuracy:.2f}")
 
 # Predict on test set
+preds = model.predict(X_test)
