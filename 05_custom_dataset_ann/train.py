@@ -4,3 +4,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
+
+# Load dataset
+data = pd.read_csv("/workspaces/ANN-Mathematics-Projects/05_custom_dataset_ann/dataset.csv")
