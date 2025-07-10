@@ -17,3 +17,4 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 
 # Normalize features
+scaler = StandardScaler()
