@@ -50,3 +50,9 @@ dz1_dW1 = x
 dL_dz1 = dL_da1 * da1_dz1
 dL_dW1 = np.dot(dz1_dW1.T, dL_dz1)  # shape (2,2)
 dL_db1 = dL_dz1
+
+print("\n==== BACKWARD PASS ====")
+print("Gradient dL/dW2:", dL_dW2)
+print("Gradient dL/db2:", dL_db2)
+print("Gradient dL/dW1:", dL_dW1)
+print("Gradient dL/db1:", dL_db1)
