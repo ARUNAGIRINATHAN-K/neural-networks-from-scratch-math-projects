@@ -12,3 +12,8 @@ b_range = np.linspace(0, 6, 100)
 W, B = np.meshgrid(w_range, b_range)
 Loss = np.zeros_like(W)
 #MSE loss
+for i in range(W.shape[0]):
+    for j in range(W.shape[1]):
+        y_pred = W[i, j] * X + B[i, j]
+        loss = np.mean((y - y_pred)**2)
+        Loss[i, j] = loss
