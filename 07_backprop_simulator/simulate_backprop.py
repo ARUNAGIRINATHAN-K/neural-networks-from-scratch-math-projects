@@ -24,3 +24,10 @@ a1 = sigmoid(z1)
 z2 = np.dot(a1, W2) + b2
 a2 = sigmoid(z2)
 loss = 0.5 * (y_true - a2)**2 
+
+print("==== FORWARD PASS ====")
+print("z1 (input → hidden):", z1)
+print("a1 (activation):", a1)
+print("z2 (hidden → output):", z2)
+print("a2 (final prediction):", a2)
+print("Loss:", loss)
