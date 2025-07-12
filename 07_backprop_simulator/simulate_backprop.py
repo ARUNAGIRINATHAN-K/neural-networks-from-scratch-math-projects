@@ -7,3 +7,5 @@ def sigmoid_derivative(sig_x):
     return sig_x * (1 - sig_x)
 
 #Input/Output
+x = np.array([[0.5, 0.8]])  
+  
