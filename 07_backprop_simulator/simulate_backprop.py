@@ -37,4 +37,4 @@ dL_da2 = -(y_true - a2)
 da2_dz2 = sigmoid_derivative(a2)
 dz2_dW2 = a1
 
-#hidden
+dL_dz2 = dL_da2 * da2_dz2
