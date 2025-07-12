@@ -1,0 +1,14 @@
+==== FORWARD PASS ====
+z1 (input → hidden): [[3.53257455 1.01551528]]
+a1 (activation): [[0.97160054 0.73409811]]
+z2 (hidden → output): [[0.70877653]]
+a2 (final prediction): [[0.67013076]]
+Loss: [[0.05440686]]
+
+==== BACKWARD PASS ====
+Gradient dL/dW2: [[-0.07084855]
+ [-0.05353001]]
+Gradient dL/db2: [[-0.07291942]]
+Gradient dL/dW1: [[-0.00095582  0.00107719]
+ [-0.00152931  0.0017235 ]]
+Gradient dL/db1: [[-0.00191164  0.00215438]]
