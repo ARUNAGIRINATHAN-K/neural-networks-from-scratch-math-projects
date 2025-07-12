@@ -34,4 +34,5 @@ print("Loss:", loss)
 
 #output
 dL_da2 = -(y_true - a2)
+da2_dz2 = sigmoid_derivative(a2)
 
