@@ -11,3 +11,4 @@ w_range = np.linspace(0, 4, 100)
 b_range = np.linspace(0, 6, 100)
 W, B = np.meshgrid(w_range, b_range)
 Loss = np.zeros_like(W)
+#MSE loss
