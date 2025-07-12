@@ -48,3 +48,4 @@ da1_dz1 = sigmoid_derivative(a1)
 dz1_dW1 = x
 
 dL_dz1 = dL_da1 * da1_dz1
+dL_dW1 = np.dot(dz1_dW1.T, dL_dz1)  # shape (2,2)
