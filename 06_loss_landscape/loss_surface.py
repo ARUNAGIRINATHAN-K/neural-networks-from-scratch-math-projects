@@ -17,3 +17,4 @@ for i in range(W.shape[0]):
         y_pred = W[i, j] * X + B[i, j]
         loss = np.mean((y - y_pred)**2)
         Loss[i, j] = loss
+#plot
