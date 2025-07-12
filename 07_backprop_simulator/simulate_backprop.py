@@ -23,3 +23,4 @@ a1 = sigmoid(z1)
 
 z2 = np.dot(a1, W2) + b2
 a2 = sigmoid(z2)
+loss = 0.5 * (y_true - a2)**2 
