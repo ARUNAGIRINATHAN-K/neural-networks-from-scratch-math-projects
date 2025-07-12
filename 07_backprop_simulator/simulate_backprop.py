@@ -42,3 +42,4 @@ dL_dW2 = np.dot(dz2_dW2.T, dL_dz2)  # shape (2,1)
 dL_db2 = dL_dz2 
 
 #hidden
+dz2_da1 = W2
