@@ -31,3 +31,5 @@ print("a1 (activation):", a1)
 print("z2 (hidden → output):", z2)
 print("a2 (final prediction):", a2)
 print("Loss:", loss)
+
+#output
