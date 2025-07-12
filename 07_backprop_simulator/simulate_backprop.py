@@ -8,4 +8,4 @@ def sigmoid_derivative(sig_x):
 
 #Input/Output
 x = np.array([[0.5, 0.8]])  
-  
+y_true = np.array([[1]]) 
