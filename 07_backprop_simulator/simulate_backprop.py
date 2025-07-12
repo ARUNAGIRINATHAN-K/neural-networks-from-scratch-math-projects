@@ -16,3 +16,6 @@ W1 = np.random.randn(2, 2)
 b1 = np.random.randn(1, 2)
 W2 = np.random.randn(2, 1) 
 b2 = np.random.randn(1, 1)
+
+#forward
+z1 = np.dot(x, W1) + b1
