@@ -7,3 +7,7 @@ X = np.linspace(0, 1, 100).reshape(-1, 1)
 true_w, true_b = 2, 3
 y = true_w * X + true_b + np.random.normal(0, 0.1, size=X.shape)
 #Loss
+w_range = np.linspace(0, 4, 100)
+b_range = np.linspace(0, 6, 100)
+W, B = np.meshgrid(w_range, b_range)
+Loss = np.zeros_like(W)
