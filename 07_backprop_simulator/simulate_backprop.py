@@ -33,3 +33,5 @@ print("a2 (final prediction):", a2)
 print("Loss:", loss)
 
 #output
+dL_da2 = -(y_true - a2)
+
