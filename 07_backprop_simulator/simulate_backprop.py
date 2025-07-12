@@ -19,3 +19,6 @@ b2 = np.random.randn(1, 1)
 
 #forward
 z1 = np.dot(x, W1) + b1
+a1 = sigmoid(z1)
+
+
