@@ -29,3 +29,12 @@ plt.tight_layout()
 plt.show()
 
 #3D plot
+fig = plt.figure(figsize=(10, 6))
+ax = fig.add_subplot(111, projection="3d")
+ax.plot_surface(W, B, Loss, cmap="viridis", edgecolor="none")
+ax.set_xlabel("Weight (w)")
+ax.set_ylabel("Bias (b)")
+ax.set_zlabel("Loss")
+ax.set_title("3D Loss Landscape")
+plt.tight_layout()
+plt.show()
