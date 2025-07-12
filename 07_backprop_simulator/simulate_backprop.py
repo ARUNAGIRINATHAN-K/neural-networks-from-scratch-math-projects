@@ -43,3 +43,4 @@ dL_db2 = dL_dz2
 
 #hidden
 dz2_da1 = W2
+dL_da1 = np.dot(dL_dz2, dz2_da1.T)
