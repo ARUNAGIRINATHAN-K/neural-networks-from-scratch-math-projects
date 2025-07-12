@@ -18,3 +18,12 @@ for i in range(W.shape[0]):
         loss = np.mean((y - y_pred)**2)
         Loss[i, j] = loss
 #plot
+plt.figure(figsize=(10, 5))
+plt.contourf(W, B, Loss, levels=50, cmap="viridis")
+plt.colorbar(label="MSE Loss")
+plt.xlabel("Weight (w)")
+plt.ylabel("Bias (b)")
+plt.title("2D Loss Contour for Linear Regression")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
