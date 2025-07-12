@@ -38,7 +38,7 @@ da2_dz2 = sigmoid_derivative(a2)
 dz2_dW2 = a1
 
 dL_dz2 = dL_da2 * da2_dz2
-dL_dW2 = np.dot(dz2_dW2.T, dL_dz2)  # shape (2,1)
+dL_dW2 = np.dot(dz2_dW2.T, dL_dz2) 
 dL_db2 = dL_dz2 
 
 #hidden
@@ -46,3 +46,5 @@ dz2_da1 = W2
 dL_da1 = np.dot(dL_dz2, dz2_da1.T)
 da1_dz1 = sigmoid_derivative(a1)
 dz1_dW1 = x
+
+dL_dz1 = dL_da1 * da1_dz1
