@@ -27,3 +27,5 @@ plt.title("2D Loss Contour for Linear Regression")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+#3D plot
