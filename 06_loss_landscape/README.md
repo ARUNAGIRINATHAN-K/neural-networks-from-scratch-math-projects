@@ -37,7 +37,7 @@ In deep learning, understanding how **model parameters** affect the **loss surfa
 
 | Contour Plot | 3D Surface |
 |--------------|------------|
-| ![contour](https://i.imgur.com/LBo1Qez.png) | ![surface](https://i.imgur.com/1evP1zz.png) |
+| ![contour](06_loss_landscape/output/Color-plot.png) | ![surface](06_loss_landscape/output/sub-plot.png) |
 
 
 ## ▶️ How to Run
