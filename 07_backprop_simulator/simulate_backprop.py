@@ -22,4 +22,4 @@ z1 = np.dot(x, W1) + b1
 a1 = sigmoid(z1)
 
 z2 = np.dot(a1, W2) + b2
-
+a2 = sigmoid(z2)
