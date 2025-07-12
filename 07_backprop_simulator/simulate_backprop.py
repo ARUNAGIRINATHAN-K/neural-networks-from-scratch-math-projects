@@ -12,3 +12,4 @@ y_true = np.array([[1]])
 
 #initianlize
 np.random.seed(0)
+W1 = np.random.randn(2, 2) 
