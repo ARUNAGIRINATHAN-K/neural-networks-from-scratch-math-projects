@@ -12,3 +12,19 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 activations = ['logistic', 'tanh', 'relu']
 histories = {}
+
+
+for act in activations:
+    clf = MLPClassifier(hidden_layer_sizes=(16, 8), activation=act,
+                        solver='adam', learning_rate_init=0.01,
+                        max_iter=200, random_state=1, verbose=False)
+    clf.fit(X_train, y_train)
+
+    train_acc = clf.score(X_train, y_train)
+    test_acc = clf.score(X_test, y_test)
+
+    histories[act] = {
+        'loss_curve': clf.loss_curve_,
+        'train_acc': train_acc,
+        'test_acc': test_acc
+    }
