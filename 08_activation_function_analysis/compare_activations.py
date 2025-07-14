@@ -28,3 +28,14 @@ for act in activations:
         'train_acc': train_acc,
         'test_acc': test_acc
     }
+
+plt.figure(figsize=(10, 6))
+for act in activations:
+    plt.plot(histories[act]['loss_curve'], label=f"{act.capitalize()}")
+plt.title("Loss Curve Comparison")
+plt.xlabel("Epochs")
+plt.ylabel("Loss")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
