@@ -39,13 +39,14 @@ Explore how different activation functions:
 
 ## 📈 Sample Results
 
-```text
-Final Accuracy Scores:
-Logistic - Train: 0.85, Test: 0.84
-Tanh     - Train: 0.88, Test: 0.87
-ReLU     - Train: 0.93, Test: 0.91
+**Final Accuracy Scores:**
 
-```
+Logistic - Train: 0.87, Test: 0.87
+
+Tanh - Train: 0.97, Test: 0.98
+
+Relu - Train: 0.98, Test: 0.98
+
 ```
 pip install scikit-learn matplotlib
 python compare_activations.py
