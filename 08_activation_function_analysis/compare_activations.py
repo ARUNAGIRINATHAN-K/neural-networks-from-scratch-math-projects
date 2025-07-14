@@ -39,3 +39,7 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+print("Final Accuracy Scores:")
+for act in activations:
+    print(f"{act.capitalize()} - Train: {histories[act]['train_acc']:.2f}, Test: {histories[act]['test_acc']:.2f}")
