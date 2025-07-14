@@ -1,0 +1,4 @@
+Final Accuracy Scores:
+Logistic - Train: 0.87, Test: 0.87
+Tanh - Train: 0.97, Test: 0.98
+Relu - Train: 0.98, Test: 0.98
