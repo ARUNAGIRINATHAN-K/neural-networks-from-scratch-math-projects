@@ -24,3 +24,5 @@ W1 = np.random.randn(input_size, hidden_size)
 b1 = np.zeros((1, hidden_size))
 W2 = np.random.randn(hidden_size, output_size)
 b2 = np.zeros((1, output_size))
+
+for epoch in range(epochs):
