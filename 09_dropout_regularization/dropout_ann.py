@@ -54,4 +54,5 @@ for epoch in range(epochs):
 
     #weight updae
     W2 -= lr * dL_dW2
+    b2 -= lr * dL_db2
     
