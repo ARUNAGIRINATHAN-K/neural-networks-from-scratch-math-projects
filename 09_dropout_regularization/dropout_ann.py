@@ -34,3 +34,7 @@ for epoch in range(epochs):
     dropout_mask = (np.random.rand(*a1.shape) > dropout_rate).astype(float)
     a1 *= dropout_mask
     a1 /= (1.0 - dropout_rate) 
+
+    z2 = np.dot(a1, W2) + b2
+    a2 = sigmoid(z2)
+   
