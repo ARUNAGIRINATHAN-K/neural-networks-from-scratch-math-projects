@@ -22,3 +22,4 @@ dropout_rate = 0.5
 np.random.seed(42)
 W1 = np.random.randn(input_size, hidden_size)
 b1 = np.zeros((1, hidden_size))
+W2 = np.random.randn(hidden_size, output_size)
