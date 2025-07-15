@@ -51,3 +51,6 @@ for epoch in range(epochs):
     dL_dz1 = dL_da1 * d_a1_z1
     dL_dW1 = np.dot(X.T, dL_dz1)
     dL_db1 = np.sum(dL_dz1, axis=0, keepdims=True)
+
+    #weight updae
+    
