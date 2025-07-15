@@ -20,3 +20,4 @@ dropout_rate = 0.5
 
 #weight initialization
 np.random.seed(42)
+W1 = np.random.randn(input_size, hidden_size)
