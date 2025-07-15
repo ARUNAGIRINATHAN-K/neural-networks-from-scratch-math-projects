@@ -19,3 +19,4 @@ output_size = 1
 dropout_rate = 0.5
 
 #weight initialization
+np.random.seed(42)
