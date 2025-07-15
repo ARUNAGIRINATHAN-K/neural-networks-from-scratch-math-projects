@@ -40,4 +40,5 @@ for epoch in range(epochs):
     loss = np.mean((y - a2)**2)
 
     dL_da2 = 2 * (a2 - y)
+    d_a2_z2 = sigmoid_derivative(a2)
     
