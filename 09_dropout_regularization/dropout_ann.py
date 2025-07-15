@@ -26,6 +26,11 @@ W2 = np.random.randn(hidden_size, output_size)
 b2 = np.zeros((1, output_size))
 
 for epoch in range(epochs):
-    # === Forward Pass ===
+    
     z1 = np.dot(x, W1) + b1
     a1 = sigmoid(z1)
+
+    
+    dropout_mask = (np.random.rand(*a1.shape) > dropout_rate).astype(float)
+    a1 *= dropout_mask
+    a1 /= (1.0 - dropout_rate) 
