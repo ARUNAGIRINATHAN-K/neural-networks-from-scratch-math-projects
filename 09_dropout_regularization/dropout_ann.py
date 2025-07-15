@@ -6,4 +6,6 @@ def sigmoid(x):
 def sigmoid_derivative(sig):
     return sig * (1 - sig)
 
+# XOR data
+
 
