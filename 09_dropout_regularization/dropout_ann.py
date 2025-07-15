@@ -15,4 +15,5 @@ epochs = 10000
 lr = 0.1
 input_size = 2
 hidden_size = 4
+output_size = 1
 
