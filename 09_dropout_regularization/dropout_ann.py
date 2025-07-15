@@ -60,3 +60,7 @@ for epoch in range(epochs):
 
     if epoch % 2000 == 0:
         print(f"Epoch {epoch}, Loss: {loss:.4f}")
+
+
+print("\nFinal Predictions:")
+print(np.round(a2, 3))
