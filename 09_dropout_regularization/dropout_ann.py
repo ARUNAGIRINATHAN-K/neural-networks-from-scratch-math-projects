@@ -56,4 +56,4 @@ for epoch in range(epochs):
     W2 -= lr * dL_dW2
     b2 -= lr * dL_db2
     W1 -= lr * dL_dW1
-    
+    b1 -= lr * dL_db1
