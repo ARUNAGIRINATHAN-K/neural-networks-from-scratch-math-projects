@@ -53,4 +53,5 @@ for epoch in range(epochs):
     dL_db1 = np.sum(dL_dz1, axis=0, keepdims=True)
 
     #weight updae
+    W2 -= lr * dL_dW2
     
