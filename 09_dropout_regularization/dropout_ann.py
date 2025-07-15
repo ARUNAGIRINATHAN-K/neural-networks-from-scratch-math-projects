@@ -7,5 +7,7 @@ def sigmoid_derivative(sig):
     return sig * (1 - sig)
 
 # XOR data
+x = np.array([[0,0],[0,1],[1,0],[1,1]])
+
 
 
