@@ -57,3 +57,6 @@ for epoch in range(epochs):
     b2 -= lr * dL_db2
     W1 -= lr * dL_dW1
     b1 -= lr * dL_db1
+
+    if epoch % 2000 == 0:
+        print(f"Epoch {epoch}, Loss: {loss:.4f}")
