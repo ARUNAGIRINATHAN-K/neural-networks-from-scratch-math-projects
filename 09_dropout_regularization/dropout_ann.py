@@ -42,4 +42,5 @@ for epoch in range(epochs):
     dL_da2 = 2 * (a2 - y)
     d_a2_z2 = sigmoid_derivative(a2)
     dL_dz2 = dL_da2 * d_a2_z2
+    dL_dW2 = np.dot(a1.T, dL_dz2)
     
