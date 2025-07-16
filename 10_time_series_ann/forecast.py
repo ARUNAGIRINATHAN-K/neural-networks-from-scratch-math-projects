@@ -32,3 +32,4 @@ for i in range(len(series_scaled) - window_size):
     y.append(series_scaled[i+window_size])
 
 X = np.array(X)
+y = np.array(y)
