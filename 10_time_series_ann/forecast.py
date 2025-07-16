@@ -30,3 +30,5 @@ y = []
 for i in range(len(series_scaled) - window_size):
     X.append(series_scaled[i:i+window_size])
     y.append(series_scaled[i+window_size])
+
+X = np.array(X)
