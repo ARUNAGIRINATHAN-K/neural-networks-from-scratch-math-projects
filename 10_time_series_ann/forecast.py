@@ -7,4 +7,4 @@ from tensorflow.keras.layers import Dense
 
 #Time-series
 np.random.seed(0)
-
+time = np.arange(0, 200)
