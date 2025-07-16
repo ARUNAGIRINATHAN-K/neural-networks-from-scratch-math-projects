@@ -1,48 +1,57 @@
-# 🧠 Artificial Neural Network Projects (Mathematics + Implementation)
+# 🧠 Neural Networks from Scratch – Math-Based Projects
 
-This repository showcases **10 curated projects** that demonstrate the mathematics behind Artificial Neural Networks (ANNs) using practical Python implementations. Ideal for learners, researchers, and aspiring data scientists.
+- Welcome to this curated collection of 10 foundational Artificial Neural Network (ANN) projects — built completely <br>
+from scratch, with a focus on mathematical understanding over library abstraction.
+- This repository is perfect for students, educators, and self-learners who want to truly grasp the internals <br>
+of how ANNs work — from perceptrons to time series forecasting.
 
----
+## 📦 Project Structure
 
-## 🔍 Project List
+| #  | Folder                             | Project                         | Key Concepts                         |
+| -- | ---------------------------------- | ------------------------------- | ------------------------------------ |
+| 01 | `01_perceptron_learning/`          | Perceptron Learning Rule        | Linear separability, weight updates  |
+| 02 | `02_xor_mlp/`                      | XOR with MLP                    | Non-linearity, backpropagation       |
+| 03 | `03_mnist_digit_recognition/`      | MNIST Digit Recognition         | Multi-class classification, softmax  |
+| 04 | `04_nn_visualizer/`                | Neural Network Visualizer       | Training dynamics, weight evolution  |
+| 05 | `05_custom_dataset_ann/`           | Custom Dataset ANN              | Tabular data, label encoding         |
+| 06 | `06_loss_landscape/`               | Loss Surface Visualization      | Loss contours, optimization geometry |
+| 07 | `07_backprop_simulator/`           | Backpropagation Simulator       | Chain rule, matrix calculus          |
+| 08 | `08_activation_function_analysis/` | Activation Function Comparison  | ReLU vs. Sigmoid vs. Tanh            |
+| 09 | `09_dropout_regularization/`       | Dropout Regularization (Manual) | Overfitting prevention               |
+| 10 | `10_time_series_ann/`              | Time Series Forecasting         | Sliding window, ANN regression       |
 
-| #  | Project Name                       | Description |
-|----|-----------------------------------|-------------|
-| 1  | [NN from Scratch](./01_nn_from_scratch)           | Fully connected ANN implemented using only NumPy (no ML libraries) |
-| 2  | [XOR Classification](./02_xor_classification)     | Non-linear classification using a small neural network |
-| 3  | [Digit Recognition - MNIST](./03_mnist_digit_recognition) | Classify handwritten digits using ANN |
-| 4  | [NN Visualizer](./04_nn_visualizer)               | Visual tool to see activations, weights, and gradients |
-| 5  | [Custom Dataset Classification](./05_custom_dataset_ann) | Train an ANN on a self-made feature-based dataset |
-| 6  | [Loss Landscape](./06_loss_landscape)             | Visualize how loss changes with respect to weights |
-| 7  | [Backpropagation Simulator](./07_backprop_simulator) | Simulate and explain backpropagation math |
-| 8  | [Activation Function Comparison](./08_activation_function_analysis) | Study and compare Sigmoid, ReLU, Tanh |
-| 9  | [Dropout Regularization](./09_dropout_regularization) | Manual implementation of dropout |
-| 10 | [Time Series Forecasting](./10_time_series_ann)   | ANN for future value prediction from past data |
+## 📚 Skills You’ll Build
 
----
+✅ Manual backpropagation
 
-## 📌 Key Concepts Covered
-- Forward and backward propagation
-- Weight updates using gradient descent
-- Loss functions: MSE, Cross Entropy
-- Activation functions
-- Regularization techniques
-- Visualization and interpretability
+✅ Chain rule and gradient computation
 
----
+✅ Custom ANN architecture design
 
-## ⚙️ Tech Stack
-- Python
-- NumPy
-- Matplotlib
+✅ Loss landscape interpretation
 
----
+✅ Time series input windowing
 
-## 💡 How to Run
-```bash
-# Install dependencies
-pip install -r requirements.txt
+✅ Dropout from scratch
 
-# Navigate to any project folder and run
-cd 01_nn_from_scratch
-python main.py
+✅ Visualizing model behavior
+
+## 🚀 Getting Started
+```
+git clone https://github.com/your-username/neural-networks-from-scratch-math-projects.git
+cd neural-networks-from-scratch-math-projects
+```
+
+## 🛠 Tech Stack
+
+- Python (NumPy, Matplotlib, scikit-learn, TensorFlow)
+
+- No frameworks for core math logic (except when comparison required)
+
+- Clean, beginner-friendly code
+
+## 📌 Recommended Prerequisites
+
+- Basic linear algebra and calculus
+
+- Python programming (NumPy basics)
