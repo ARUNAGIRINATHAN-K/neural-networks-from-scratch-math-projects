@@ -50,3 +50,4 @@ y_pred = model.predict(X_test)
 
 #inve-trans
 y_test_rescaled = scaler.inverse_transform(y_test.reshape(-1, 1)).flatten()
+y_pred_rescaled = scaler.inverse_transform(y_pred).flatten()
