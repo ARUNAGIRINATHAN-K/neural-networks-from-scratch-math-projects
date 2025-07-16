@@ -47,3 +47,5 @@ model.compile(optimizer='adam', loss='mse')
 history = model.fit(X_train, y_train, epochs=50, batch_size=16, validation_split=0.1)
 
 y_pred = model.predict(X_test)
+
+#inve-trans
