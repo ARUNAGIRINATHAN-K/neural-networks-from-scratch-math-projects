@@ -9,3 +9,11 @@ from tensorflow.keras.layers import Dense
 np.random.seed(0)
 time = np.arange(0, 200)
 series = np.sin(0.1 * time) + np.random.normal(0, 0.1, size=len(time))
+
+plt.plot(time, series, label="Time Series")
+plt.title("Synthetic Time Series Data")
+plt.xlabel("Time")
+plt.ylabel("Value")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
