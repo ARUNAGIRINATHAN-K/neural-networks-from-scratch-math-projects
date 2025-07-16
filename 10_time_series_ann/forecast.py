@@ -19,3 +19,4 @@ plt.tight_layout()
 plt.show()
 
 #Normalize
+scaler = MinMaxScaler()
