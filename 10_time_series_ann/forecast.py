@@ -25,3 +25,4 @@ series_scaled = scaler.fit_transform(series.reshape(-1, 1)).flatten()
 #window size
 window_size = 10
 X = []
+y = []
