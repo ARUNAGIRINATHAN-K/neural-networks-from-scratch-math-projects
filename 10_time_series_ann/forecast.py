@@ -20,3 +20,4 @@ plt.show()
 
 #Normalize
 scaler = MinMaxScaler()
+series_scaled = scaler.fit_transform(series.reshape(-1, 1)).flatten()
