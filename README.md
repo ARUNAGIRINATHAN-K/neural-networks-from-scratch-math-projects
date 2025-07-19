@@ -9,16 +9,16 @@ of how ANNs work — from perceptrons to time series forecasting.
 
 | #  | Folder                             | Project                         | Key Concepts                         |
 | -- | ---------------------------------- | ------------------------------- | ------------------------------------ |
-| 01 | `01_perceptron_learning/`          | Perceptron Learning Rule        | Linear separability, weight updates  |
-| 02 | `02_xor_mlp/`                      | XOR with MLP                    | Non-linearity, backpropagation       |
-| 03 | `03_mnist_digit_recognition/`      | MNIST Digit Recognition         | Multi-class classification, softmax  |
-| 04 | `04_nn_visualizer/`                | Neural Network Visualizer       | Training dynamics, weight evolution  |
-| 05 | `05_custom_dataset_ann/`           | Custom Dataset ANN              | Tabular data, label encoding         |
-| 06 | `06_loss_landscape/`               | Loss Surface Visualization      | Loss contours, optimization geometry |
-| 07 | `07_backprop_simulator/`           | Backpropagation Simulator       | Chain rule, matrix calculus          |
-| 08 | `08_activation_function_analysis/` | Activation Function Comparison  | ReLU vs. Sigmoid vs. Tanh            |
-| 09 | `09_dropout_regularization/`       | Dropout Regularization (Manual) | Overfitting prevention               |
-| 10 | `10_time_series_ann/`              | Time Series Forecasting         | Sliding window, ANN regression       |
+| 01 | [01_perceptron_learning](01_nn_from_scratch)          | Perceptron Learning Rule        | Linear separability, weight updates  |
+| 02 | [02_xor_mlp](02_xor_classification)                      | XOR with MLP                    | Non-linearity, backpropagation       |
+| 03 | [03_mnist_digit_recognition](03_mnist_digit_recognition)     | MNIST Digit Recognition         | Multi-class classification, softmax  |
+| 04 | [04_nn_visualizer](04_nn_visualizer)                | Neural Network Visualizer       | Training dynamics, weight evolution  |
+| 05 | [05_custom_dataset_ann](05_custom_dataset_ann)          | Custom Dataset ANN              | Tabular data, label encoding         |
+| 06 | [06_loss_landscape](06_loss_landscape)              | Loss Surface Visualization      | Loss contours, optimization geometry |
+| 07 | [07_backprop_simulator](07_backprop_simulator)           | Backpropagation Simulator       | Chain rule, matrix calculus          |
+| 08 | [08_activation_function_analysis](08_activation_function_analysis) | Activation Function Comparison  | ReLU vs. Sigmoid vs. Tanh            |
+| 09 | [09_dropout_regularization](09_dropout_regularization)       | Dropout Regularization (Manual) | Overfitting prevention               |
+| 10 | [10_time_series_ann](10_time_series_ann)              | Time Series Forecasting         | Sliding window, ANN regression       |
 
 ## 📚 Skills You’ll Build
 
@@ -38,7 +38,7 @@ of how ANNs work — from perceptrons to time series forecasting.
 
 ## 🚀 Getting Started
 ```
-git clone https://github.com/your-username/neural-networks-from-scratch-math-projects.git
+git clone https://github.com/arun-techverse/neural-networks-from-scratch-math-projects.git
 cd neural-networks-from-scratch-math-projects
 ```
 
