@@ -5,6 +5,15 @@ from scratch, with a focus on mathematical understanding over library abstractio
 - This repository is perfect for students, educators, and self-learners who want to truly grasp the internals <br>
 of how ANNs work — from perceptrons to time series forecasting.
 
+
+
+![GitHub stars](https://img.shields.io/github/stars/arun-techverse/neural-networks-from-scratch-math-projects?style=social)
+![Forks](https://img.shields.io/github/forks/arun-techverse/neural-networks-from-scratch-math-projects)
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+
+
+
+
 ## 📦 Project Structure
 
 | #  | Folder                             | Project                         | Key Concepts                         |
