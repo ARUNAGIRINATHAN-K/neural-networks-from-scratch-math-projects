@@ -1,3 +1,4 @@
+![](NEURALNETWORKSFROMSCRACTH.png)
 # 🧠 Neural Networks from Scratch – Math-Based Projects
 
 - Welcome to this curated collection of 10 foundational Artificial Neural Network (ANN) projects — built completely <br>
