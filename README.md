@@ -4,15 +4,16 @@
 - Welcome to this curated collection of 10 foundational Artificial Neural Network (ANN) projects — built completely <br>
 from scratch, with a focus on mathematical understanding over library abstraction.
 - This repository is perfect for students, educators, and self-learners who want to truly grasp the internals <br>
-of how ANNs work — from perceptrons to time series forecasting.
+of how ANNs work from perceptrons to time series forecasting.
 
 
 
 ![GitHub stars](https://img.shields.io/github/stars/arun-techverse/neural-networks-from-scratch-math-projects?style=social)
 ![Forks](https://img.shields.io/github/forks/arun-techverse/neural-networks-from-scratch-math-projects)
-![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
-
-
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)  
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#-contributing)  
 
 
 ## 📦 Project Structure
