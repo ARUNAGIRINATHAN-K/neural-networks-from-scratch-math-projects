@@ -8,12 +8,11 @@ of how ANNs work from perceptrons to time series forecasting.
 
 
 
-![GitHub stars](https://img.shields.io/github/stars/arun-techverse/neural-networks-from-scratch-math-projects?style=social)
-![Forks](https://img.shields.io/github/forks/arun-techverse/neural-networks-from-scratch-math-projects)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)  
-[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#-contributing)  
+<p align="center">
+   
+![GitHub stars](https://img.shields.io/github/stars/arun-techverse/neural-networks-from-scratch-math-projects?style=social) ![Forks](https://img.shields.io/github/forks/arun-techverse/neural-networks-from-scratch-math-projects) [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)  [![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)   [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#-contributing) 
+
+</p>
 
 
 ## 📦 Project Structure
